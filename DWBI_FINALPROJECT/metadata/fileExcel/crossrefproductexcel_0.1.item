@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_lxlMMClmEeercMz-n-ckKg" name="crossrefproductexcel" dataPackage="_lxlMMSlmEeercMz-n-ckKg" Server="Localhost 127.0.0.1" FilePath="C:/Users/schau/Desktop/OneDrive_1_4-23-2017/SOR Flat Files/CrossRef_Products.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="CrossRef_Products" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="CrossRef_Products:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_lxlMMSlmEeercMz-n-ckKg" name="default" dataManager="_lxlMMClmEeercMz-n-ckKg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_lxlMMilmEeercMz-n-ckKg" id="_ZiZ5kClmEeercMz-n-ckKg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lxlMMylmEeercMz-n-ckKg" label="ProductKey" length="4" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lxlMNClmEeercMz-n-ckKg" label="Product_ID" length="12" talendType="id_Long" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lxlMNSlmEeercMz-n-ckKg" label="Brand_ID" length="12" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lxlMNilmEeercMz-n-ckKg" label="ProductLabel" length="6" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lxlMNylmEeercMz-n-ckKg" label="ProductName" length="60" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lxlMOClmEeercMz-n-ckKg" label="ProductSubcategoryKey" length="2" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lxlMOSlmEeercMz-n-ckKg" label="ProductSubcategoryLabel" length="3" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lxlMOilmEeercMz-n-ckKg" label="ProductcategoryKey" length="1" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lxlMOylmEeercMz-n-ckKg" label="ProductCategoryLabel" length="1" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

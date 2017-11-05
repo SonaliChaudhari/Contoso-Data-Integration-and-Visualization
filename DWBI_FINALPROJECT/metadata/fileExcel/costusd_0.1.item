@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_RUfyACosEeeJ19xaR1jfSg" name="costusd" dataPackage="_RUfyASosEeeJ19xaR1jfSg" Server="Localhost 127.0.0.1" FilePath="C:/Users/schau/Downloads/cost_usd_steps_all.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Step1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Step1:w&#xA;Step2:w&#xA;Step3:w&#xA;Step4:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_RUfyASosEeeJ19xaR1jfSg" name="default" dataManager="_RUfyACosEeeJ19xaR1jfSg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_RUfyAiosEeeJ19xaR1jfSg" id="_C9HcwCosEeeJ19xaR1jfSg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RUfyAyosEeeJ19xaR1jfSg" label="ProductLabel" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RUfyBCosEeeJ19xaR1jfSg" label="CurrencyKey" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RUfyBSosEeeJ19xaR1jfSg" label="UnitCost" length="5" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RUfyBiosEeeJ19xaR1jfSg" label="SCD_EffectiveDate" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
